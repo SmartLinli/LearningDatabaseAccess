@@ -16,7 +16,9 @@ namespace EduSys2024
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_LogIn());
+            Frm_LogIn frm_LogIn = new Frm_LogIn();
+            frm_LogIn.Show();
+            Application.Run();
         }
     }
 }
